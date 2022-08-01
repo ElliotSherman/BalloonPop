@@ -1,0 +1,14 @@
+.balloon {
+    transition: ease-in;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0;
+}
+
+.balloon-pop {
+    transition: ease-in-out;
+    display: none;
+}
